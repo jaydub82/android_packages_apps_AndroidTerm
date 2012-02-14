@@ -14,7 +14,7 @@
                 android:windowSoftInputMode="adjustResize|stateAlwaysVisible">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                
             </intent-filter>
         </activity>
         <activity android:name="TermPreferences"
@@ -23,6 +23,6 @@
                 android:label="@string/window_list" />
         <service android:name="TermService" />
     </application>
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="11" />
+    <uses-sdk android:minSdkVersion="15" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 </manifest>
